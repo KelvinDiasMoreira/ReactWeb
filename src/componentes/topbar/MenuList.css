@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+.container-menuList{
+    position: absolute;
+    width: 480px;
+    height: 50px;
+    background-color: #151616;
+    padding-top: 2em;
+}
+
+.container-menuList h2{
+    font-family: 'Tinos', serif;
+    color: #7B8D93;
+    position: relative;
+    display: inline;
+    padding-left: 3.15em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.container-menuList h2:hover{
+   color: rgb(255, 255, 255); 
+}
