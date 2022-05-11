@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import "./ListaContas.css";
 import { useSalario } from "../../hooks/useSalario";
 
@@ -7,7 +7,6 @@ export default function ListaContas() {
   const [valorGastos, setValorGastos] = useState()
 
   useEffect(() => {
-    console.log(salary)
     setValorGastos(salary)
   }, [salary])
 

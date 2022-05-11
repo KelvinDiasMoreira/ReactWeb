@@ -9,7 +9,6 @@ export default function InformeSal() {
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-
     handleGetSalario(valor)
   }
 

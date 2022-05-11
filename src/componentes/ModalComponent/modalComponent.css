@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+.background-modal {
+  margin-top: 150px;
+  margin-left: 700px;
+  position: absolute;
+  width: 480px;
+  height: 350px;
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+
+.container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-style {
+  cursor: pointer;
+  color: #7B8D93;
+  font-size: 1.2em;
+  font-family: 'Tinos', serif;
+  border: none;
+  border-radius: 0.5em;
+  position: relative;
+  width: 2em;
+  height: 2em;
+  margin-left: 15em;
+  border-radius: 0.5em;
+  background-color: #151616;
+  box-shadow: black 1px 1px 1px 1px;
+  text-align: center
+}
+
+.button-style:hover {
+  box-shadow: black 5px 3px 2px 1px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.664);
+}
+
+.modal-contents {
+  margin-top: 0.5em;
+  color: black;
+  font-family: 'Tinos', serif;
+  font-size: 1.3em;
+}
+
+.modal-contents p {
+  color: #7B8D93;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+.modal-contents input {
+  margin-left: 0.4em;
+}
+
+.input-modal-number {
+  margin: auto;
+  font-family: 'Tinos', serif;
+  border-radius: 0.3em;
+  border: none;
+  width: 10em;
+  padding: 0.5em;
+  font-size: 0.9em;
+  background-color: #151616;
+  color: #7B8D93;
+  box-shadow: black 3px 2px 2px 1px;
+}
+
+.button-modal-confirm {
+  margin-top: 0.5em;
+  margin-left: 3.2em;
+  position: relative;
+  font-family: 'Tinos', serif;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  font-size: 1.2em;
+  border: none;
+  background-color: #151616;
+  color: #7B8D93;
+  cursor: pointer;
+  box-shadow: black 1px 1px 1px 1px;
+
+}
+
+.button-modal-confirm:hover {
+  box-shadow: black 5px 3px 2px 1px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.664);
+}
